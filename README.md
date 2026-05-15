@@ -2,6 +2,12 @@
 
 Obsidian plugin for contextual interpretation of selected English text, powered by a local LLM via [Ollama](https://ollama.com). No data leaves your machine.
 
+## Demo
+
+![Select text and run the command](assets/demo-selection.png)
+
+![Interpretation panel](assets/demo-modal.png)
+
 ## What it does
 
 Select any English text in your notes and run **Interpret selected text** from the Command Palette. A panel opens with four dimensions:
