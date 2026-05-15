@@ -1,7 +1,7 @@
 {
   "id": "english-text-interpreter",
   "name": "English Text Interpreter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "0.15.0",
   "description": "Contextual interpretation of selected English text powered by a local LLM (Ollama). Explains meaning, tone, cultural context and intent.",
   "author": "Julio Gonzales",
