@@ -1,0 +1,85 @@
+/* Interpretation panel */
+.eti-panel {
+  position: absolute;
+  z-index: 1000;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+  padding: 14px 16px;
+  max-width: 480px;
+  min-width: 260px;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.eti-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.eti-panel-title {
+  font-weight: 600;
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.eti-panel-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1.1em;
+  padding: 0 2px;
+  line-height: 1;
+  border-radius: 3px;
+  transition: color 0.15s;
+}
+
+.eti-panel-close:hover {
+  color: var(--text-normal);
+}
+
+.eti-panel-quote {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.83em;
+  border-left: 2px solid var(--interactive-accent);
+  padding-left: 8px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.eti-panel-body {
+  color: var(--text-normal);
+}
+
+.eti-panel-loading {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Section labels inside the panel */
+.eti-section {
+  margin-top: 8px;
+}
+
+.eti-section-label {
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--interactive-accent);
+  margin-bottom: 2px;
+}
+
+.eti-section-content {
+  color: var(--text-normal);
+}
